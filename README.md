@@ -11,9 +11,9 @@ A simple React application for keeping track of job applications in one place.
 - Search by company, job title, or location
 - Filter applications by status
 - Add application dates, job links, and notes
-- Dashboard with application statistics
-- Saves application data using localStorage
-- Responsive design for smaller screens
+- View application statistics
+- Save application data using localStorage
+- Responsive design for different screen sizes
 
 ## Tech Stack
 
@@ -25,7 +25,32 @@ A simple React application for keeping track of job applications in one place.
 
 ## Getting Started
 
-Clone the repository and install the dependencies:
+Install the project dependencies:
 
-```bash
 npm install
+
+Start the development server:
+
+npm run dev
+
+Open the local URL shown in the terminal.
+
+## Build
+
+Create a production build with:
+
+npm run build
+
+## Project Structure
+
+src/
+├── components/
+│   ├── jobCard.jsx
+│   └── jobForm.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
+
+## About
+
+This project was built to practice React state management, forms, filtering, reusable components, and browser storage.
